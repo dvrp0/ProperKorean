@@ -7,6 +7,13 @@ Fixes invalid Korean font and minstranslations.
 * **Fixed a tedious issue where hosting a multiplayer game using Korean would crash the session...**
 
 ## Changelog
+**1.0.2**
+
+- Bugfix
+
+**1.0.1**
+
+- Bugfix
 
 **1.0.0**
 
