@@ -1,0 +1,10 @@
+﻿{
+	"name": "ProperKorean",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Fixes invalid Korean font and minstranslations.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+	]
+}
