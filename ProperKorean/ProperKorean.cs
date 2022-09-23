@@ -19,7 +19,7 @@ namespace ProperKorean
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "DVRP";
         public const string PluginName = "ProperKorean";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.1.0";
 
         private static AssetBundle properBundle = AssetBundle.LoadFromMemory(Properties.Resources.properkorean);
         private static TMP_FontAsset properFont;
@@ -40,7 +40,11 @@ namespace ProperKorean
 
             Log.LogInfo("ProperKorean :: Proper JSON Loaded");
 
-            Language.currentLanguage.SetStringsByTokens(proper);
+            foreach (var token in proper)
+            {
+                if (Language.currentLanguage.GetLocalizedStringByToken(token.Key) != token.Value)
+                    Language.currentLanguage.SetStringByToken(token.Key, token.Value);
+            }
 
             Log.LogInfo("ProperKorean :: Proper JSON Applied");
         }

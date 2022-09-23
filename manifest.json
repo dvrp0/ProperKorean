@@ -1,6 +1,6 @@
 {
 	"name": "ProperKorean",
-	"version_number": "1.0.2",
+	"version_number": "1.0.5",
 	"website_url": "",
 	"description": "Fixes invalid Korean font and minstranslations.",
 	"dependencies": [
