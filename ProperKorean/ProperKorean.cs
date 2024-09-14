@@ -57,9 +57,10 @@ namespace ProperKorean
                     var tilde = x.Result.glyphTable.Find(x => x.index == 95);
                     tilde.metrics = tilde.metrics with { horizontalBearingY = 40 };
 
-                    properFont.fallbackFontAssets.Clear();
                     properFont.fallbackFontAssets.Add(x.Result);
-                    x.Result.fallbackFontAssets.Add(properFont);
+
+                    if (TMP_Settings.fallbackFontAssets[0].name != "tmpBombDropshadow")
+                        TMP_Settings.fallbackFontAssets.Insert(0, x.Result);
 
                     RoR2.UI.HGTextMeshProUGUI.defaultLanguageFont = properFont;
 
