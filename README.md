@@ -1,54 +1,64 @@
 # ProperKorean
 
-¿Ã¹Ù¸£Áö ¾ÊÀº ÇÑ±¹¾î ÆùÆ®¿Í ¿À¿ªÀ» ¼öÁ¤ÇÏ´Â ¸ğµåÀÔ´Ï´Ù.
+ì˜¬ë°”ë¥´ì§€ ì•Šì€ í•œêµ­ì–´ í°íŠ¸ì™€ ì˜¤ì—­ì„ ìˆ˜ì •í•˜ëŠ” ëª¨ë“œì…ë‹ˆë‹¤.
 
-* ÀÏºÎ ±ÛÀÚ°¡ `?`·Î Ç¥½ÃµÇ´ø ÆùÆ® ¿À·ù ¼öÁ¤
-* ÆùÆ® ÇØ»óµµ °³¼±
-* ´Ù¾çÇÑ ¿À¿ª ¹× ºñ¹® ¼öÁ¤, ¿ë¾î ÅëÀÏ
+* ì¼ë¶€ ê¸€ìê°€ `?`ë¡œ í‘œì‹œë˜ë˜ í°íŠ¸ ì˜¤ë¥˜ ìˆ˜ì •
+* í°íŠ¸ í•´ìƒë„ ê°œì„ 
+* ë‹¤ì–‘í•œ ì˜¤ì—­ ë° ë¹„ë¬¸ ìˆ˜ì •, ìš©ì–´ í†µì¼
 
 ## Examples
-![](https://cdn.discordapp.com/attachments/815214884920098817/995992001088589904/ProperKoreanDone2.png)  
-![](https://cdn.discordapp.com/attachments/815214884920098817/995992001449316442/ProperKoreanDone3.png)  
-![](https://cdn.discordapp.com/attachments/815214884920098817/995992001772269589/ProperKoreanDone4.png)  
-![](https://cdn.discordapp.com/attachments/815214884920098817/995992001998770316/ProperKoreanDone5.png)  
-![](https://cdn.discordapp.com/attachments/815214884920098817/995992002250407988/ProperKoreanDone6.png)  
-![](https://cdn.discordapp.com/attachments/815214884920098817/995992002502070282/ProperKoreanDone7.png)
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172323.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172355.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172626.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172606.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172555.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172649.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172524.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172447.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173432.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173426.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173612.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173624.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173639.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173521.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20174258.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172722.png)
 
 ## Changelog
 **1.2.0**
-* ÆøÇ³ÀÇ ±¸µµÀÚ ´ëÀÀ
-  * ±âÁ¸ Çü½ÄÀ» ¹ş¾î³ª´Â ÀÏºÎ ¾ÆÀÌÅÛµéÀÇ ¼³¸í ÀçÀÛ¼º
-  * Àß¸ø ±âÀçµÈ ¼öÄ¡ ¼öÁ¤
-  * ÀÚ±ÛÀÚ±ÛÇØÁø ÇÑ±Û ÆùÆ® °³¼±
-  * ½ºÅä¸® ¸é¿¡¼­ ÀÏ°üµÇµµ·Ï ·Î±×ºÏ, ´ë»ç, ¿£µù ¹®±¸ ¹ø¿ª °³¼±
-  * Áßº¹µÇ´Â ½ºÅ² ÀÌ¸§ ¼öÁ¤
-* ·Î±×ºÏ ¿ÀÅ¸ ¼öÁ¤
-* ¿ë¾î ¹× Ç¥Çö ÅëÀÏ
-* ½ºÅä¸®¿¡ ¸ÂÃç ÀÏºÎ ¸íÄª º¯°æ
+* í­í’ì˜ êµ¬ë„ì ëŒ€ì‘
+  * ê¸°ì¡´ í˜•ì‹ì„ ë²—ì–´ë‚˜ëŠ” ì¼ë¶€ ì•„ì´í…œë“¤ì˜ ì„¤ëª… ì¬ì‘ì„±
+  * ì˜ëª» ê¸°ì¬ëœ ìˆ˜ì¹˜ ìˆ˜ì •
+  * ìê¸€ìê¸€í•´ì§„ í•œê¸€ í°íŠ¸ ê°œì„ 
+  * ìŠ¤í† ë¦¬ ë©´ì—ì„œ ì¼ê´€ë˜ë„ë¡ ë¡œê·¸ë¶, ëŒ€ì‚¬, ì—”ë”© ë¬¸êµ¬ ë²ˆì—­ ê°œì„ 
+  * ì¤‘ë³µë˜ëŠ” ìŠ¤í‚¨ ì´ë¦„ ìˆ˜ì •
+* ë¡œê·¸ë¶ ì˜¤íƒ€ ìˆ˜ì •
+* ìš©ì–´ ë° í‘œí˜„ í†µì¼
+* ìŠ¤í† ë¦¬ì— ë§ì¶° ì¼ë¶€ ëª…ì¹­ ë³€ê²½
 
 **1.1.0**
-* ÀÇÁ¸¼º ÃÖ½ÅÈ­
-  * ´©¶ôµÈ R2API ÀÇÁ¸¼º Ãß°¡
-* ÇÁ·ÎÇÊ Åë°è, ¾÷Àû, »ıÁ¸ÀÚ ¼³¸í ¹ø¿ª ¼öÁ¤
+* ì˜ì¡´ì„± ìµœì‹ í™”
+  * ëˆ„ë½ëœ R2API ì˜ì¡´ì„± ì¶”ê°€
+* í”„ë¡œí•„ í†µê³„, ì—…ì , ìƒì¡´ì ì„¤ëª… ë²ˆì—­ ìˆ˜ì •
 
 **1.0.5**
-* ¼Ò±Ô¸ğ ¹ö±× ¼öÁ¤
+* ì†Œê·œëª¨ ë²„ê·¸ ìˆ˜ì •
 
 **1.0.4**
-* °øÇãÀÇ »ıÁ¸ÀÚ 1.2.4 ´ëÀÀ
+* ê³µí—ˆì˜ ìƒì¡´ì 1.2.4 ëŒ€ì‘
 
 **1.0.3**
 
-* °øÇãÀÇ »ıÁ¸ÀÚ 1.2.3 ´ëÀÀ
+* ê³µí—ˆì˜ ìƒì¡´ì 1.2.3 ëŒ€ì‘
 
 **1.0.2**
 
-* ¹ö±× ¼öÁ¤
+* ë²„ê·¸ ìˆ˜ì •
 
 **1.0.1**
 
-* ¹ö±× ¼öÁ¤
+* ë²„ê·¸ ìˆ˜ì •
 
 **1.0.0**
 
-* ¸ğµå Ãâ½Ã
+* ëª¨ë“œ ì¶œì‹œ
