@@ -8,6 +8,7 @@ using UnityEngine;
 using TMPro;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace ProperKorean
 {
@@ -19,7 +20,7 @@ namespace ProperKorean
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "DVRP";
         public const string PluginName = "ProperKorean";
-        public const string PluginVersion = "1.1.0";
+        public const string PluginVersion = "1.2.0";
 
         private static AssetBundle properBundle = AssetBundle.LoadFromMemory(Properties.Resources.properkorean);
         private static TMP_FontAsset properFont;
@@ -29,7 +30,6 @@ namespace ProperKorean
             Log.Init(Logger);
 
             properFont = properBundle.LoadAsset<TMP_FontAsset>("Assets/properkorean/NotoSansCJKsc-Regular SDF (Korean).asset");
-
             On.RoR2.UI.HGTextMeshProUGUI.OnCurrentLanguageChanged += HGTextMeshProUGUI_OnCurrentLanguageChanged;
         }
 
@@ -38,35 +38,45 @@ namespace ProperKorean
             var properTemp = JObject.Parse(System.Text.Encoding.UTF8.GetString(Properties.Resources.output_korean));
             var proper = JsonConvert.DeserializeObject<Dictionary<string, string>>(properTemp["strings"].ToString());
 
-            Log.LogInfo("ProperKorean :: Proper JSON Loaded");
-
             foreach (var token in proper)
             {
                 if (Language.currentLanguage.GetLocalizedStringByToken(token.Key) != token.Value)
                     Language.currentLanguage.SetStringByToken(token.Key, token.Value);
             }
 
-            Log.LogInfo("ProperKorean :: Proper JSON Applied");
+            Log.LogInfo("ProperKorean :: Fixed localization");
         }
 
-        static void HGTextMeshProUGUI_OnCurrentLanguageChanged(On.RoR2.UI.HGTextMeshProUGUI.orig_OnCurrentLanguageChanged orig)
+        private static void FixFont()
         {
+            LegacyResourcesAPI.LoadAsync<TMP_FontAsset>("TmpFonts/Bombardier/tmpBombDropshadow").Completed += x =>
+            {
+                if (x.Status == AsyncOperationStatus.Succeeded)
+                {
+                    // Tilde is placed too high up
+                    var tilde = x.Result.glyphTable.Find(x => x.index == 95);
+                    tilde.metrics = tilde.metrics with { horizontalBearingY = 40 };
+
+                    properFont.fallbackFontAssets.Clear();
+                    properFont.fallbackFontAssets.Add(x.Result);
+                    x.Result.fallbackFontAssets.Add(properFont);
+
+                    RoR2.UI.HGTextMeshProUGUI.defaultLanguageFont = properFont;
+
+                    Log.LogInfo("ProperKorean :: Fixed font");
+                }
+            };
+        }
+
+        private static void HGTextMeshProUGUI_OnCurrentLanguageChanged(On.RoR2.UI.HGTextMeshProUGUI.orig_OnCurrentLanguageChanged orig)
+        {
+            orig();
+
             if (Language.currentLanguageName == "ko")
             {
-                Language.currentLanguage.SetStringByToken("DEFAULT_FONT", "TmpFonts/Bombardier/tmpBombDropShadow");
-                TMP_Settings.fallbackFontAssets.Add(properFont);
+                FixFont();
                 FixLocalization();
-
-                Log.LogInfo("ProperKorean :: FallbackFont Added");
             }
-            else if (TMP_Settings.fallbackFontAssets.Count == 2)
-            {
-                TMP_Settings.fallbackFontAssets.RemoveAt(1);
-
-                Log.LogInfo("ProperKorean :: FallbackFont Removed");
-            }
-
-            orig();
         }
     }
 }
