@@ -18,7 +18,7 @@
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172524.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20014838.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172447.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20011335.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20044923.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173432.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173426.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173612.png)  
@@ -30,6 +30,10 @@
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20011821.png)
 
 ## Changelog
+**1.2.3**
+* 시커의 평온 강화 툴팁 수정
+* 만성 증량 설명 수정
+
 **1.2.2**
 * 시커 스킬 설명 개선
 * 시커 스킬에 평온 강화 관련 툴팁 추가
