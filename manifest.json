@@ -1,6 +1,6 @@
 {
 	"name": "ProperKorean",
-	"version_number": "1.2.1",
+	"version_number": "1.2.2",
 	"website_url": "https://github.com/dvrp0/ProperKorean",
 	"description": "Fixes Korean font and translations to be proper.",
 	"dependencies": [

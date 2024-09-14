@@ -8,6 +8,7 @@
 
 ## Examples
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172323.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20031555.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20003807.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172355.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172626.png)  
@@ -29,6 +30,10 @@
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20011821.png)
 
 ## Changelog
+**1.2.2**
+* 시커 스킬 설명 개선
+* 시커 스킬에 평온 강화 관련 툴팁 추가
+
 **1.2.1**
 * 물결표(`~`)가 올바른 위치에 배치되도록 수정
 * 만성 증량, 독가시, 불안정한 전송기의 설명 개선
