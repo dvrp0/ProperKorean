@@ -8,7 +8,6 @@ using UnityEngine;
 using TMPro;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using UnityEngine.AddressableAssets;
 
 namespace ProperKorean
 {
@@ -20,7 +19,7 @@ namespace ProperKorean
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "DVRP";
         public const string PluginName = "ProperKorean";
-        public const string PluginVersion = "1.2.3";
+        public const string PluginVersion = "1.3.0";
 
         private static AssetBundle properBundle = AssetBundle.LoadFromMemory(Properties.Resources.properkorean);
         private static TMP_FontAsset properFont;
@@ -31,8 +30,6 @@ namespace ProperKorean
 
             properFont = properBundle.LoadAsset<TMP_FontAsset>("Assets/properkorean/NotoSansCJKsc-Regular SDF (Korean).asset");
             On.RoR2.UI.HGTextMeshProUGUI.OnCurrentLanguageChanged += HGTextMeshProUGUI_OnCurrentLanguageChanged;
-
-            ImproveSeekerTooltips();
         }
 
         private static void FixLocalization()
@@ -75,33 +72,6 @@ namespace ProperKorean
             {
                 FixFont();
                 FixLocalization();
-            }
-        }
-
-        private static void ImproveSeekerTooltips()
-        {
-            var seeker = Addressables.LoadAssetAsync<GameObject>("RoR2/DLC2/Seeker/SeekerBody.prefab").WaitForCompletion();
-            foreach (var skill in seeker.GetComponents<GenericSkill>())
-            {
-                switch (skill.skillName)
-                {
-                    case "SpiritPunch":
-                        skill.skillFamily.variants[0].skillDef.keywordTokens = new string[] { "SEEKER_PRIMARY_UPGRADE_TOOLTIP" };
-                        break;
-
-                    case "UnseenHand":
-                        skill.skillFamily.variants[0].skillDef.keywordTokens = new string[] { "SEEKER_SECONDARY_UPGRADE_TOOLTIP" };
-                        skill.skillFamily.variants[1].skillDef.keywordTokens = new string[] { "SEEKER_SECONDARY_ALT1_UPGRADE_TOOLTIP" };
-                        break;
-
-                    case "Sojourn":
-                        skill.skillFamily.variants[0].skillDef.keywordTokens = new string[] { "SEEKER_UTILITY_UPGRADE_TOOLTIP" };
-                        break;
-
-                    case "MeditateUI":
-                        skill.skillFamily.variants[0].skillDef.keywordTokens[0] = "SEEKER_SPECIAL_UPGRADE_TOOLTIP";
-                        break;
-                }
             }
         }
     }
