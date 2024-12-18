@@ -8,17 +8,16 @@
 
 ## Examples
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172323.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20033734.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-12-18%20222846.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20003807.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172355.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172626.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172606.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172555.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172649.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172524.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20014838.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20172447.png)  
-![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20044923.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-12-18%20221825.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-12-18%20221846.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-12-18%20221906.png)  
+![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-12-18%20222014.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173432.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173426.png)  
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-14%20173612.png)  
@@ -30,6 +29,10 @@
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20011821.png)
 
 ## Changelog
+**1.3.0**
+* V1.3.6 패치 대응
+* 오류가 있던 로그북 수정 및 양식 통일
+
 **1.2.3**
 * 시커의 평온 강화 툴팁 수정
 * 만성 증량 설명 수정
