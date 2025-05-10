@@ -19,7 +19,7 @@ namespace ProperKorean
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "DVRP";
         public const string PluginName = "ProperKorean";
-        public const string PluginVersion = "1.3.0";
+        public const string PluginVersion = "1.3.1";
 
         private static AssetBundle properBundle = AssetBundle.LoadFromMemory(Properties.Resources.properkorean);
         private static TMP_FontAsset properFont;

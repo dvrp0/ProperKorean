@@ -29,6 +29,9 @@
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20011821.png)
 
 ## Changelog
+**1.3.1**
+* V1.3.7, V1.3.8 패치 대응
+
 **1.3.0**
 * V1.3.6 패치 대응
 * 오류가 있던 로그북 수정 및 양식 통일
