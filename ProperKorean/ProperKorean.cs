@@ -1,13 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using BepInEx;
 using R2API.Utils;
 using RoR2;
-using RoR2.UI;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 using TMPro;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -22,7 +19,7 @@ namespace ProperKorean
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "DVRP";
         public const string PluginName = "ProperKorean";
-        public const string PluginVersion = "1.3.1";
+        public const string PluginVersion = "1.5.0";
 
         private static AssetBundle properBundle = AssetBundle.LoadFromMemory(Properties.Resources.properkorean);
         private static TMP_FontAsset properFont;
@@ -62,24 +59,9 @@ namespace ProperKorean
             if (TMP_Settings.fallbackFontAssets[0].name != "tmpBombDropshadow")
                 TMP_Settings.fallbackFontAssets.Insert(0, font);
 
-            HGTextMeshProUGUI.defaultLanguageFont = properFont;
+            RoR2.UI.HGTextMeshProUGUI.defaultLanguageFont = properFont;
 
             Log.LogInfo("ProperKorean :: Fixed font");
-        }
-
-        private static void FixChat()
-        {
-            var chatInRun = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/UI/ChatBox, In Run.prefab").WaitForCompletion();
-            foreach (var lang in chatInRun.GetComponent<ChatBox>().languageAffectedbyLineCounts)
-                if (lang.languageAffected == "ko")
-                    lang.languageAffected = "ko_NULL";
-
-            var chat = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/UI/ChatBox.prefab").WaitForCompletion();
-            foreach (var lang in chat.GetComponent<ChatBox>().languageAffectedbyLineCounts)
-                if (lang.languageAffected == "ko")
-                    lang.languageAffected = "ko_NULL";
-
-            Log.LogInfo("ProperKorean :: Fixed chatbox");
         }
 
         private static void HGTextMeshProUGUI_OnCurrentLanguageChanged(On.RoR2.UI.HGTextMeshProUGUI.orig_OnCurrentLanguageChanged orig)
@@ -90,7 +72,6 @@ namespace ProperKorean
             {
                 FixFont();
                 FixLocalization();
-                FixChat();
             }
         }
     }

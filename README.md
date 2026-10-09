@@ -29,6 +29,18 @@
 ![](https://raw.githubusercontent.com/dvrp0/ProperKorean/master/ProperKorean/Images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-15%20011821.png)
 
 ## Changelog
+**1.5.0**
+* 거룩한 개념 대응
+
+**1.4.2**
+* 한국어 채팅창 동작 개선
+
+**1.4.1**
+* V1.4.1 패치 대응
+
+**1.4.0**
+* 합금 집합체 대응
+
 **1.3.1**
 * V1.3.7, V1.3.8 패치 대응
 

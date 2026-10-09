@@ -1,6 +1,6 @@
 import json, os
 
-with open("DLC3.json", "r", encoding="utf-8-sig") as f:
+with open("DLC4.json", "r", encoding="utf-8-sig") as f:
     new = json.load(f)["strings"].keys()
 
 with open("../Resources/output-korean.json", "r", encoding="utf-8") as f:
